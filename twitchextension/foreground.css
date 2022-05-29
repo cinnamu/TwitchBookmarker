@@ -1,0 +1,14 @@
+/* Separated css from foreground.html to allow the viewer to see this*/
+
+#chrome_ext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:  50px;
+    background-color: red;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+}
